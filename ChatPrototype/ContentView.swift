@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Knock, knock!")
+                .padding()
+                .background(Color.yellow, in: RoundedRectangle(cornerRadius: 8))
+            Text("Who's there?")
+                .background(Color.teal, in: RoundedRectangle(cornerRadius: 8))
+                .padding()
+            Text("Placeholder")
         }
         .padding()
     }
